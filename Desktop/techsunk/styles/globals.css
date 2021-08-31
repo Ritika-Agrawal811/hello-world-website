@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* resetting bootstrap */
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border: none;
+}
+
+/* dimensions */
+
+.w-48 {
+  width: 48%;
+}
+
+.block-big {
+  height: 95vh;
+}
+
+/* text colors */
+
+.gradient-green {
+  background-image: linear-gradient(60deg, #77c743, #1fcc40);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* background colors */
+
+.bg-lightblue {
+  background-image: linear-gradient(180deg, #edf8f4 70%, transparent 70%);
+}
+
+.bg-seagreen {
+  background-image: linear-gradient(180deg, transparent 80%, #fff 80%),
+    linear-gradient(90deg, #deffe4 50%, transparent 50%);
+}
+
+.bg-darkgreen {
+  background-color: #1fcc40;
+}
+
+/* font-size */
+
+h2 {
+  font-size: 40px;
+}
+
+/* media queries */
+
+@media (min-width: 425px) and (max-width: 768px) {
+  h5.text-small {
+    font-size: 14px;
+  }
+
+  h2.text-small {
+    font-size: 26px;
+  }
+
+  .block-big {
+    height: 105vh;
+  }
+
+  .bg-seagreen {
+    background-image: linear-gradient(180deg, transparent 80%, #fff 80%),
+      linear-gradient(90deg, #deffe4 60%, transparent 60%);
+  }
+}
